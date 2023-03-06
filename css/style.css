@@ -1,7 +1,18 @@
 .navbar.navbar-dark {
     background-color: #6531a1!important;
 }
+.navbar-brand {
+    padding: 2px 10px;
+    border-radius: 10px;
+    background-color: #321151;
+}
+.navbar-brand:hover {
+    background-color: #321151b2;
+}
 
+footer {
+    padding-bottom: 10px;
+}
 footer ul li i {
     color: black;
     transition: color 0.7s ease;
@@ -11,6 +22,18 @@ footer ul li i {
 }
 footer ul li i:hover {
     color: blueviolet;
+}
+.navbar-brand-footer {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    padding: 2px 10px;
+    border-radius: 10px;
+    background-color: #321151;
+}
+.navbar-brand-footer:hover {
+    color: #b3b3b3;
 }
 
 .hero {
@@ -32,20 +55,20 @@ footer ul li i:hover {
     font-size: 1.5rem;
     line-height: 1rem;
     font-weight: bold;
-    color: #ff253e;
+    color: #ffffff;
     margin: 0;
     text-shadow: 3px 2px 1px black;
 }
 .hero-text h1 {
     font-size: 4rem;
     font-weight: bold;
-    color: #d11839;
-    text-shadow: 2px 2px 3px black;
+    color: #02010;
+    text-shadow: 1px 1px 3px white;
 }
 .hero-text .hero-text-paragraph {
     font-size: 2rem;
     font-weight: bold;
-    color: #b94c4c;
+    color: #ffffff;
     text-shadow: 2px 2px 3px black;
 }
 
@@ -80,56 +103,8 @@ footer ul li i:hover {
     margin-bottom: 50px;
 }
 
-/* History section */
-.container-experience {
-    border-bottom: 3px solid blueviolet;
-    padding: 30px 0 50px;
-}
-.container-experience:nth-last-child(1) {
-    border-bottom: 0px;
-}
-.container-experience h5 {
-    font-weight: bold;
-    padding-bottom: 6px;
-}
 
-/* About me */
-.about-me-box {
-    margin: 15px 0 25px;
-    padding: 5px;
-    border-radius: 15px;
-    border: 1px solid #6531a1;
-}
-.about-me-box a {
-    color: black;
-}
-.about-me-box a:hover {
-    text-decoration: none;
-}
 
-.about-me-section h1 {
-    font-size: 30px;
-    position: relative;
-    padding: 10px 0 3px;
-    margin-bottom: 35px;
-}
-.about-me-section h1 span {
-    font-size: 16px;
-    color: #6528e0;
-    display: block;
-}
-.about-me-section h1 sub {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 60px;
-    height: 2px;
-    background-color: #6528e0;
-}
-.about-me-section img{
-    width: 100%;
-    max-width: 450px;
-}
 .btn-primary {
     background-color: #5a23c8;
     border-color: #5a23c8;
@@ -141,10 +116,56 @@ footer ul li i:hover {
     box-shadow: none!important;
 }
 
-.progress-section .progress-bar {
-    background-color: #6528e0;
+.question{
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .answers {
+    margin-bottom: 20px;
+    text-align: left;
+    display: inline-block;
+  }
+  .answers label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  button{
+    font-family: 'Work Sans', sans-serif;
+      font-size: 22px;
+      background-color: #279;
+      color: #fff;
+      border: 0px;
+      border-radius: 3px;
+      padding: 20px;
+      cursor: pointer;
+      margin-bottom: 20px;
+  }
+  button:hover{
+      background-color: #38a;
+  }
+
+
+
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
 }
 
+.active-slide {
+    opacity: 1;
+    z-index: 2;
+}
+
+.quiz-container {
+    position: relative;
+    height: 200px;
+    margin-top: 40px;
+}
 
 
 
@@ -194,6 +215,9 @@ form .form-check-input:checked {
 
 
 
+
+
+
 /* Resposive */
 @media (min-width: 1200px) {
     form {
@@ -204,15 +228,11 @@ form .form-check-input:checked {
 
 }
 @media (max-width: 1200px) {
-    .about-me-section img {
-        max-width: 350px;
-    }
+
 }
 @media (max-width: 992px) {
 
-    .about-me-section img {
-        max-width: 250px;
-    }
+
 
 }
 @media (max-width: 768px) {
@@ -221,17 +241,6 @@ form .form-check-input:checked {
         padding-left: 12px;
         padding-right: 12px;
         padding-bottom: 40px;
-    }
-
-    .about-me-section {
-        display: block!important;
-    }
-    .about-me-section img {
-        max-width: 250px;
-        margin: auto;
-    }
-    .about-me-section .flex-grow-1.ms-4 {
-        margin-left: 0px!important;
     }
 
 

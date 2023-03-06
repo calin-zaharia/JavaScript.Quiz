@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>How To</title>
     <link rel="icon" class="site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon-dark.svg">
     
     <!-- Bootstrap 5v -->
@@ -15,9 +15,6 @@
 
     <!-- Local CSS -->
     <link href="css/style.css"  rel="stylesheet" >
-
-    <!-- Local JS -->
-    <script src="js/javascript.js" type="text/javascript"></script>
 
 </head>
 <body>
@@ -37,10 +34,10 @@
             <div class="collapse navbar-collapse ml-auto" id="navbarTogglerDemo02">
                 <ul class="navbar-nav font-size-lg ms-auto align-items-end">
                     <li class="nav-item">
-                        <a class="nav-link fs-4 active" aria-current="page" href="/index.html">Home</a>
+                        <a class="nav-link fs-4" aria-current="page" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fs-4" aria-current="page" href="/howto.html">How To</a>
+                        <a class="nav-link fs-4 active" aria-current="page" href="/howto.html">How To</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link fs-4" aria-current="page" href="/contactme.html">Contact me</a>
@@ -51,35 +48,37 @@
         </div>
     </nav>
 
-    <div class="hero">
-        <div class="container-xl">
-            <div class="hero-text">
-                <p class="hero-text-small">Hello, I'am</p>
-                <h1>Calin Zaharia</h1>
-                <p class="hero-text-paragraph">Front-End Developera</p>
-            </div>
-        </div>
-    </div>
     <div class="container-xl">
 
-        <h3 class="home-title"><span>Projects</span></h2>
-        <p class="description-title">This is my personal projects made for different clients with different functionalities in performance and applicability</p>
-        
+        <!-- Personal History -->
+        <h3 class="home-title"><span> How to use the Quiz </span></h2>
 
-        <h1>Quiz on Important Facts</h1>
-        <div class="quiz-container">
-            <div id="quiz"></div>
-        </div>
+            <div class="container-experience row">
+                <p class="col-md-3">First Step</p>
+                <div class="right-experience col-md-9">
+                    <p>Press the answer from the 3 options you have. You need to select just one option from those options displayed and forward the answer by pressing "Next Question"!</p>
+                </div>
+            </div>
+            <div class="container-experience row">
+                <p class="col-md-3">Second Step</p>
+                <div class="right-experience col-md-9">
+                    <p>You can go back and change your answer by pressing "previous Question" or just finish by pressing "Submit Quiz" and send the answers selected</p>
+                </div>
+            </div>
+            <div class="container-experience row">
+                <p class="col-md-3">Third Step</p>
+                <div class="right-experience col-md-9">
+                    <h5>Final Step!</h5>
+                    <p>You can check the answers by going back, selecting different solutions and submitting them again to check if they are correct.</p>
+                </div>
+            </div>
+ 
 
-        <button id="previous">Previous Question</button>
-        <button id="next">Next Question</button>
-        <button id="submit">Submit Quiz</button>
-        <div id="results"></div>
-
-
+        <!-- <button type="button" class="btn btn-primary bd-violet"> Download CV <i class="fa-solid fa-download"></i></button> -->
+            
     </div>
 
-    
+
     <footer>
         <div class="container-xl ">
             <hr class="solid">
