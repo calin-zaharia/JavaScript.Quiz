@@ -1,5 +1,6 @@
 {
     "GithubGistExplorer.explorer.gistAscending": true,
     "GithubGistExplorer.explorer.subscriptionAscending": true,
-    "GithubGistExplorer.github.username": "narotovc"
+    "GithubGistExplorer.github.username": "narotovc",
+    "liveServer.settings.CustomBrowser": "chrome"
 }
