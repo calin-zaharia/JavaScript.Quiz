@@ -6,13 +6,12 @@
 
 ## [**Project Goals**](#project-goals)
 
-This project is a responsive website representing a personal presentation website(online CV website).
-This website offers all personal information, simple to use with only 3 pages that allow users to get in touch easy.
+The goal of this project is to develop a responsive website for creating a quiz platform. The website should allow users to create and take quizzes, providing an interactive and engaging experience. The website should be user-friendly, intuitive, and have a visually appealing design.
+
 
 ## [**User Goals**](#user-goals)
 
-Adding all professional information and easy additional ways to be contacted by the user.
-This project reflects the level of skills learned and a pleasant user experience.
+The main goal of the users is to test their knowledge and have an enjoyable experience while participating in quizzes. Enjoy a pleasant user experience: The website should provide a smooth and intuitive user experience, with clear navigation, responsive design, and fast loading times. The website aims to provide an entertaining and educational platform for users to challenge themselves and have fun.
 
 ## [**User Stories**](#user-stories)
 
@@ -25,14 +24,17 @@ Main inspiration on these resources:
 * https://www.themezy.com/demos/244-web-designer-portfolio-website-template
 * https://nicepage.com/html-templates/preview/personal-website-485993?device=desktop
 * https://www.templatemonsterpreview.com/demo/69070.html
-* https://dribbble.com/shots/7662998-Growth-Personal-Portfolio-Theme/attachments/444053?mode=media
+* https://codepen.io/SitePoint/pen/GmPjjL
+* https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/
+* https://www.htmlcodegenerator-tools.com/2019/10/html-javascript-quiz-generator-score-timer.html
+* https://code-boxx.com/simple-javascript-quiz/
 
 ## [**Features**](#features)
 
 1. Navbar responsive that is collapsed on mobile or small tablets for ease of navigation
 2. Space between section with titles that separates them for a better user experience
 3. Hyperlinks on logos link to the official page and social links that help user to connect directly with the owner of the website
-4. Download CV button that increases user trust 
+4. Quiz game that you can play how many times you desire
 
 ## [**Technologies used**](#technologies-used)
 
@@ -61,7 +63,7 @@ I did this every time I made significant changes to any part of my site.
 From my personal experiences directly from my personal CV.
 
 ### Media
-From my personal collection.
+From my collection and use this generator(https://realfavicongenerator.net/favicon_result?file_id=64cb1f125df8c4e05f89556d58a443c5244440d1) for favicon image.
 
 ### Acknowledgements
 
@@ -71,5 +73,11 @@ From my personal collection.
   * Progress bar code https://getbootstrap.com/docs/5.2/components/progress
   * Button components from https://getbootstrap.com/docs/5.2/components/buttons/
   * Navbar secttion https://getbootstrap.com/docs/5.2/components/navbar/
+
+* For the "Quiz" game, I got inspired by the following:
+  * https://codepen.io/SitePoint/pen/GmPjjL
+  * https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/
+  * https://www.htmlcodegenerator-tools.com/2019/10/html-javascript-quiz-generator-score-timer.html
+  * https://code-boxx.com/simple-javascript-quiz/
 
 * Social icons from Font Awesome https://fontawesome.com/
