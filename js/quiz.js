@@ -1,51 +1,51 @@
 var data = [
     {
-      question : "What is the standard distance between the target and archer in Olympics?",
-      options : [
-        "50 meters",
-        "70 meters",
-        "100 meters",
-        "120 meters"
+      question: 'What is the standard distance between the target and archer in Olympics?',
+      options: [
+        '50 meters',
+        '70 meters',
+        '100 meters',
+        '120 meters'
       ],
       correctAnswerIndex: 1
     },
     {
-      question : "How many legs do insects have?",
+      question: 'How many legs do insects have?',
       options: [
-        "11",
-        "4",
-        "6",
-        "2"
+        '11',
+        '4',
+        '6',
+        '2'
       ],
       correctAnswerIndex: 2
     },
     {
-      question : "In which country can you find the Eiffel Tower?",
+      question: 'In which country can you find the Eiffel Tower?',
       options: [
-        "Spain",
-        "China",
-        "Papua New Guinea",
-        "France"
+        'Spain',
+        'China',
+        'Papua New Guinea',
+        'France'
       ],
       correctAnswerIndex: 3
     },
     {
-      question : "What is the name of the tallest mountain on earth?",
+      question: 'What is the name of the tallest mountain on earth?',
       options: [
-        "Mount Everest",
-        "K2",
-        "Mount Kilimanjaro",
-        "Volcano Tajumulco"
+        'Mount Everest',
+        'K2',
+        'Mount Kilimanjaro',
+        'Volcano Tajumulco'
       ],
       correctAnswerIndex: 0
     },
     {
-      question : "Which is the largest ocean on Earth?",
+      question: 'Which is the largest ocean on Earth?',
       options:  [
-        "Atlantic Ocean",
-        "Indian Ocean",
-        "Arctic Ocean",
-        "Pacific Ocean"
+        'Atlantic Ocean',
+        'Indian Ocean',
+        'Arctic Ocean',
+        'Pacific Ocean'
       ],
       correctAnswerIndex: 3
     }
