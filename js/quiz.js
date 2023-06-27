@@ -34,8 +34,8 @@ var data = [
       options: [
         "Mount Everest",
         "K2",
-        "MOUNT KILIMANJARO",
-        "VOLCAN TAJUMULCO"
+        "Mount Kilimanjaro",
+        "Volcano Tajumulco"
       ],
       correctAnswerIndex: 0
     },
