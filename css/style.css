@@ -430,14 +430,6 @@ input[type="radio"] {
     }
 
 }
-@media (max-width: 1200px) {
-
-}
-@media (max-width: 992px) {
-
-
-
-}
 @media (max-width: 768px) {
     .contact-details {
         text-align: left;
@@ -459,4 +451,11 @@ input[type="radio"] {
     footer .row .col-md-4.text-end .p-3.m-0 {
         padding: 5px 0px 20px!important;
     }
+}
+@media (max-width: 580px) {
+
+  #quizAnswersWrapper {
+    display: block;
+  }
+
 }
